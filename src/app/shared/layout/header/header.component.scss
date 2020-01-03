@@ -1,0 +1,30 @@
+@import "~@angular/material/theming";
+
+:host {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+.language-picker {
+  font-size: 12px;
+  width: 60px;
+}
+
+.title {
+  cursor: pointer;
+}
+
+.title:hover {
+  color: mat-color($mat-grey, 300);
+}
+
+.logged-in-message {
+  font-size: 14px;
+}

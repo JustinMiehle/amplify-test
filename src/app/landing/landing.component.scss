@@ -1,0 +1,18 @@
+.background {
+  background-image: url("/assets/background.jpg");
+  background-size: cover;
+  opacity: 0.4;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.outer-container {
+  overflow-y: auto;
+}
+
+.container {
+  width: 100vw;
+  height: calc(100vh - 64px);
+  margin-top: 64px;
+}

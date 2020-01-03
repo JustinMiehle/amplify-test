@@ -1,0 +1,18 @@
+@import "~@angular/material/theming";
+
+table {
+  width: 100%;
+
+  .staff-row {
+    cursor: pointer;
+  }
+
+  .staff-row:hover {
+    background-color: mat-color($mat-grey, 200);
+  }
+}
+
+.link {
+  color: blue;
+  cursor: pointer;
+}

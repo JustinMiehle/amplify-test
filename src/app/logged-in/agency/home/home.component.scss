@@ -1,0 +1,21 @@
+@import "~@angular/material/theming";
+
+.job-row {
+  cursor: pointer;
+}
+
+.job-row:hover {
+  background-color: mat-color($mat-grey, 200);
+}
+
+table {
+  width: 100%;
+}
+
+h2 {
+  padding-right: 24px;
+}
+
+button {
+  top: -6px;
+}

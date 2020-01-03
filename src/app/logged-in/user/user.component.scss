@@ -1,0 +1,30 @@
+.outer-container {
+  height: 100vh;
+  background-color: #eee;
+}
+
+.outer-container {
+  color: #fff;
+}
+
+.inner-container {
+  width: 100vw;
+}
+
+.content-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+}
+
+app-header {
+  height: 10vh;
+}
+
+router-outlet {
+  height: 80vh;
+}
+
+app-footer {
+  height: 10vh;
+}

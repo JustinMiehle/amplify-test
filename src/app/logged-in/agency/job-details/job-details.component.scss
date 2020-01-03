@@ -1,0 +1,21 @@
+@import "~@angular/material/theming";
+
+.progress {
+  height: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+agm-map {
+  height: 300px;
+}
+
+.staff-row {
+  cursor: pointer;
+}
+
+.staff-row:hover {
+  background-color: mat-color($mat-grey, 200);
+}
