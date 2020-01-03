@@ -54,7 +54,6 @@
     "moments": "^0.0.2",
     "nativescript-angular": "~7.2.0",
     "nativescript-theme-core": "~1.0.4",
-    "ngrx": "^2.0.1",
     "ngx-material-timepicker": "^4.0.2",
     "reflect-metadata": "~0.1.12",
     "rxjs": "^6.5.2",
